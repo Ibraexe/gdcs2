@@ -5,8 +5,8 @@ date: 2025-03-01
 contributors:
 - intercomprehensible
 - illusion2
-- koma5
 - psytrancegd
+- komatic5
 draft: false
 ---
 

@@ -6,7 +6,7 @@ contributors:
 - everedeck
 - komatic5
 - illusion2
-- pneuma
+- intercomprehensible
 draft: false
 ---
 
