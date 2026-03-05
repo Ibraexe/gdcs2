@@ -1,9 +1,10 @@
 ---
 title: Animate
 weight: 319
+date: 2024-01-25
 contributors:
-- naem
-- NotAModerator
+- naem.less
+- notamoderatr
 draft: false
 ---
 

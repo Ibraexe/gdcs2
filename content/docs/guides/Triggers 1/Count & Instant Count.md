@@ -1,9 +1,10 @@
 ---
 title: Count & Instant Count
 weight: 344
+date: 2024-01-24
 contributors:
-- koma5
-- Madzz
+- komatic5
+- __madzz__
 draft: false
 ---
 

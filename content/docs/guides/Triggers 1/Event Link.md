@@ -1,9 +1,10 @@
 ---
 title: Event Link
 weight: 338
+date: 2024-01-25
 contributors:
-- EYZ
-- Selena
+- .eyz.
+- sparktwee
 draft: false
 ---
 

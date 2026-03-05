@@ -1,9 +1,11 @@
 ---
 title: Level Design
 weight: 718
+date: 2025-01-14
 contributors:
-- Evere
-- koma5
+- everedeck
+- komatic5
+- illusion2
 - pneuma
 draft: false
 ---

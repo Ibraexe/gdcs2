@@ -1,12 +1,12 @@
 ---
 title: BPM
 weight: 316
+date: 2024-01-21
 contributors:
-- koma5
-- Mycelium
+- komatic5
+- myceliumdev
 draft: false
 ---
-
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - The BPM trigger lets you accurately make guidelines for your song, which is helpful for syncing gameplay properly.

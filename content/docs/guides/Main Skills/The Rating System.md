@@ -2,8 +2,8 @@
 title: The Rating System
 weight: 217
 contributors:
-- NotAModerator
-- Selena
+- notamoderatr
+- sparktwee
 draft: false
 ---
 

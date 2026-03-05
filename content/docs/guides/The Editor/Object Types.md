@@ -2,8 +2,8 @@
 title: Object Types
 weight: 108
 contributors:
-- Selena
-- sovereign
+- sparktwee
+- illusion2
 draft: false
 ---
 

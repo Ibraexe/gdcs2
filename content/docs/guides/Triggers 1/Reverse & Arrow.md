@@ -1,9 +1,11 @@
 ---
 title: Reverse & Arrow
 weight: 328
+date: 2024-02-06
 contributors:
-- EYZ
-- Selena
+- .eyz.
+- naem.less
+- sparktwee
 draft: false
 ---
 

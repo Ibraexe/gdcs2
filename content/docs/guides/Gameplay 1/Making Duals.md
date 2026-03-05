@@ -1,9 +1,11 @@
 ---
 title: Making Duals
 weight: 421
+date: 2024-10-14
 contributors:
-- ChuckOlate
-- naem
+- chuckolate
+- e.clypse.
+- naem.less
 draft: false
 ---
 

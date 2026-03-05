@@ -1,8 +1,11 @@
 ---
 title: Camera Triggers
 weight: 329
+date: 2024-05-31
 contributors:
 - etherail
+- itsnub1x
+- sparktwee
 - zars70
 draft: false
 ---

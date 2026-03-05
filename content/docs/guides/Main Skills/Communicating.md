@@ -2,7 +2,7 @@
 title: Communicating
 weight: 217
 contributors:
-- koma5
+- komatic5
 draft: false
 ---
 

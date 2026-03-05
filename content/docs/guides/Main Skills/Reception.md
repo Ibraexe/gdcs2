@@ -2,8 +2,8 @@
 title: Reception
 weight: 217
 contributors:
-- psy
-- Selena
+- sparktwee
+- psytrancegd
 draft: false
 ---
 

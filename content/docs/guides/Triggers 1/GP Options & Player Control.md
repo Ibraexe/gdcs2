@@ -1,9 +1,10 @@
 ---
 title: GP Options & Player Control
 weight: 332
+date: 2024-01-25
 contributors:
-- EYZ
-- koma5
+- .eyz.
+- komatic5
 draft: false
 ---
 

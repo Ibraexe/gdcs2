@@ -1,9 +1,10 @@
 ---
 title: Fixing Bugs
 weight: 347
+date: 2023-08-31
 contributors:
-- NotAModerator
-- ontos
+- notamoderatr
+- illusion2
 draft: false
 ---
 

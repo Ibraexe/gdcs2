@@ -2,8 +2,8 @@
 title: Using Channels
 weight: 118
 contributors:
-- sovereign
-- Vexilo
+- illusion2
+- vexilo5
 draft: false
 ---
 
