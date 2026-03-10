@@ -5,9 +5,11 @@ date: 2024-02-25
 authors:
 - komatic5
 - illusion2
+- psytrancegd
 contributors:
 - komatic5
 - illusion2
+- psytrancegd
 - sparktwee
 draft: false
 
