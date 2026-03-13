@@ -94,7 +94,7 @@ Here’s another wacky thing about descriptions: you can add color to the text b
 
 Formatted as `<c> Your text here </c>`
 
-Example: <cr>Hello level!</cr>
+Example: <cr>Hello level!</c>
 
 `cr` for Red (#FF0000)
 `cb` for Blue (#0000FF)
