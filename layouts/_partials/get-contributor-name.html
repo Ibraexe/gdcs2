@@ -4,7 +4,7 @@
 */ -}}
 
 {{- $username := .username | lower -}}
-{{- $userYAML := index (where .context.Site.Data.contributors "username" "==" $username) 0 -}}
+{{- $userYAML := index (where .context.Site.Data.contributors "safeUsername" "==" $username) 0 -}}
 {{- $preferredName := .username -}}
 
 {{- if and $userYAML $userYAML.usePreferred -}}
