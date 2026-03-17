@@ -12,36 +12,19 @@ import markdown # type: ignore
 
 def format_media(lines):
     i = 0
-    imglines = []
-    emptylines = []
 
     relines = []
 
-    for l in lines:
-        # find consecutive images / empty lines for formatting
-        if re.findall(r"<div><iframe.+></iframe></div>", l):
-            imglines.append(i)
-
-        if l == "\n":
-            emptylines.append(i)
-
-        relines.append(str(l))
-        i = i + 1
-
-    # print(len(relines))
-    # print(len(lines))
-    # exit()
-        
-    for img1 in range(len(imglines)-1):
+    for img1 in range(len(lines)-1):
         html = relines[img1]
         html2 = re.sub(r'<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/', '{{< img src="https://lh3.googleusercontent.com/d/', html)
         html2 = re.sub(r'/preview?usp=drivesdk></iframe></div>', '" >}}', html2)
 
-        relines[img1] = html2
+        relines.append(html2)
 
     return relines
 
-def reformat_md(input_file_path, output_md_path, json):
+def reformat_md(input_file_path, output_md_path):
     # Detect when another md file is named (just traverse the list of files for names)
     # and create relative links to other files
 
@@ -95,9 +78,6 @@ if __name__ == "__main__":
     # glob.glob("*.csv") + 
     convGuides = glob.glob("**/*.md", recursive=True)
     # print(convGuides)
-
-    j = open("GuideOrdering.json", "r")
-    j = json.load(j)
 
     if (len(convGuides) == 0):
         print("No md files found")
