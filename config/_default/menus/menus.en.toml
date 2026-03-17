@@ -1,27 +1,51 @@
 [[main]]
-  name = "The Basics"
+  name = "Creator Showcase"
+  url = "/showcase"
+  weight = 5
+
+[[main]]
+  name = "User Guide"
+  url = "/user_guide"
+  weight = 10
+
+[[main]]
+  name = "All Guides"
+  weight = 20
+
+[[main]]
+  name = "Contributors"
+  url = "/contributors"
+  weight = 30
+
+[[main]]
+  parent="All Guides"
+  name = "The Editor"
   url = "/docs/guides/The Editor/Placing Objects"
   weight = 10
 
 [[main]]
+  parent="All Guides"
+  name = "General Skills"
+  url = "/docs/guides/Main Skills/Getting Ideas"
+  weight = 15
+
+[[main]]
+  parent="All Guides"
   name = "Triggers"
   url = "/docs/guides/Triggers 1/Trigger Intro"
   weight = 20
 
 [[main]]
+  parent="All Guides"
   name = "Gameplay"
   url = "/docs/guides/Gameplay 1/Using Gamemodes"
   weight = 30
 
 [[main]]
+  parent="All Guides"
   name = "Decoration"
   url = "/docs/guides/Deco 1/Using Deco Objects"
   weight = 40
-
-# [[main]]
-#   name = "Resources"
-#   url = "/docs/resources"
-#   weight = 50
 
 [[social]]
   name = "Discord"
