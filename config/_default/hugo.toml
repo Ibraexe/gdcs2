@@ -6,7 +6,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-timeout: 180s
+timeout = 180
 languageCode = "en-US"
 rssLimit = 10
 summarylength = 20 # 70 (default)
@@ -59,6 +59,9 @@ copyRight = "Copyright (c) 2026 Geometry Dash Creator School"
   priority = 0.5
 
 [caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+    maxAge = -1 # "30m"
   [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = -1 # "30m"
