@@ -24,9 +24,11 @@ seo:
 
 ** **
 
+The editor has plenty of controls, which are grouped into navigation, building, editing, and deleting. This guide goes over the basics of each.
+
 # 1: Navigation
 
-**Click and drag** in the editor space to move around. You may also use the slider at the top to move around really fast.
+**Click and drag** in the editor space to move around your level. You may also use the slider at the top to move around really fast.
 
 {{< img src="images/GDEmotes/Buttons/ZoomIn.png" class="emote">}} Use the **Zoom** buttons to zoom in and out.
 
@@ -34,17 +36,21 @@ seo:
 
 # 2: The Build Tab
 
-{{< img src="images/GDEmotes/Objects/Block.png" class="emote">}} This is where you can find objects to place. Objects are organized into lots of different tabs, which you’ll learn more about in [later guides](/docs/guides/the-editor/object-types). To place an object, *click on its button* in the Build tab, then *click* anywhere in the editor space.
+{{< img src="images/GDEmotes/Objects/Block.png" class="emote">}} All levels are made of objects. The **Build Tab** is where you can find and place them.
+
+To place an object, *click on its button* in the Build tab, then *click* anywhere in the editor space.
 
 {{< youtube v9PjLdzX3Vw >}} 
-<br>
-{{< img src="images/GDEmotes/Buttons/Swipe.png" class="emote">}} To place lots of objects at once, click on the **Swip**e button to the right. You can now click and drag to place lots of objects. Note that this’ll stop you from moving around in the editor.
+
+Objects are organized into lots of different tabs, which you’ll learn more about in [later guides](/docs/guides/the-editor/object-types). 
+
+{{< img src="images/GDEmotes/Buttons/Swipe.png" class="emote">}} The **Swipe** button lets you place lots of objects at once when you're in the Build Tab. When enabled, you can click and drag to place objects on the grid. This will stop you from moving around in the editor.
 
 {{< youtube PpLad3Hj5aE >}} 
 
 # 3: The Edit Tab
 
-This is where you can change an object’s location. Click on any object to **select** it. From here, you can use the following buttons to modify an object.
+The **Edit Tab** is where you can change an object’s location, size, and rotation. Click on any object to **select** it. After selecting objects, you can use these buttons to modify them.
 
 {{< img src="images/GDEmotes/Buttons/MediumArrow.png" class="emote">}} Use the **arrow buttons** to change an object's location.
 - {{< img src="images/GDEmotes/Buttons/SmallArrow.png" class="emote">}} The small arrows move objects by *1/15th of a block*.

@@ -36,16 +36,16 @@ Objects fall into different categories. These categories all have unique propert
 - [Detail objects](/docs/guides/deco-1/detail-objects/)
 - [Custom Objects](/docs/guides/the-editor/custom-objects-autobuild/)
 
-You can check to see which category an object is in by turning on hitboxes or clicking :EditSpecial:, however you would need to at least understand the different types before you can use them sufficiently. You can get more information on each type of object by checking out their respective guides.
+You can check which category an object is in by turning on hitboxes or clicking on it while in the Build Tab, however you would need to at least understand the different types before you can use them sufficiently. You can get more information on each type of object by checking out their respective guides.
 
 # 2: Blocks and Slabs
 
 This is the first tab, and it consists of all objects that are used as block or slab details. Blocks are the square objects, and slabs are the shorter ones. There might be some slope details as well, however the majority of them appear in the slopes tab. Note that not all objects have hitboxes, so you would need to combine them with the outline objects, which are covered in the next section. There are also objects used for Autobuild, which you can find in the [Custom Objects & Autobuild](/docs/guides/the-editor/custom-objects-autobuild/) guide.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1fUb0t-LwYFFapE0VTwBq2SuidFJX" >}}
 
 Most of the blocks are put into tilesets, which are basically a group of objects. Most tilesets include:
-- 1 ✕ 1 object: a lonely object that doesn’t have to be put into a tileset
+- 1 x 1 object: a lonely object that doesn’t have to be put into a tileset
 - Edge object: goes along the edges of an object
 - Corner object: goes in the corner of a structure
 - Corner piece: goes inbetween two corners in order to connect them
@@ -119,11 +119,11 @@ This tab is full of detail objects that you can use for decorating or any other 
 
 Saws and gears are another set of hazards. While this tab has plenty of saws to choose from, it also has detail objects that rotate. Most of these details help with air deco, but there are also objects at the end of the tab that pulse to the song.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1gAx-_RQx4N8zYq-DsIMX5dE8jBvQqmBr" >}}
 
 # 14: Triggers
 
-This tab consists of basically every trigger in the game. ALL of these triggers are covered in #triggers-1.
+This tab consists of basically every trigger in the game. ALL of these triggers are covered in [Triggers 1](/docs/guides/triggers-1/trigger-intro/).
 
 {{< img src="https://lh3.googleusercontent.com/d/1VxerRkvB5OUH0F3qOGf1OIgFRTVM-IHs" >}}
 
@@ -133,4 +133,4 @@ The custom tab allows you to combine lots of other objects into one singular cus
 
 {{< img src="https://lh3.googleusercontent.com/d/1ghSJ-1QYzs21H8jsfZVXI_dSN37Z5st-" >}}
 
-> **```*Note: these are just my saved assets, yours will probably look different```**
+> **Note:** these are just my saved assets, yours will probably look different.
