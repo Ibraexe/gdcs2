@@ -1,6 +1,6 @@
 ---
 title: "Choosing a Song"
-weight: 105
+weight: 1050
 date: 2024-01-30T00:00:00.000Z
 authors:
   - "tdp9"
@@ -13,7 +13,7 @@ contributors:
   - "komatic5"
 draft: false
 seo:
-  title: "How to Choose a Song in Geometry Dash"
+  title: "How to Manaeg Songs in Geometry Dash"
   description: "A short guide to choosing a song for your Geometry Dash level, using Newgrounds, the Music Library, and NONG file replacement."
   canonical: ""
   noindex: false
@@ -34,7 +34,7 @@ seo:
 
 Newgrounds is the official website RobTop endorses for songs that aren’t in the main levels. Only certain artists and their songs whitelisted by RobTop can be used, which explains why not every newgrounds song ID can be used in GD. Here’s how you use a song from Newgrounds.
 
-1. Open a level in the editor and locate the cog button in the top right of the screen.
+1. Open a level in the editor and locate the {{< img class="emote" src="images/GDEmotes/Buttons/Settings.png" >}} [level settings](/docs/guides/the-editor/editor-settings/#1-level-settings) button.
 
 {{< img src="https://lh3.googleusercontent.com/d/1IlP67nmieM95CK8lKnmu04CL6pszKjYi" >}}
 
@@ -51,11 +51,11 @@ Newgrounds is the official website RobTop endorses for songs that aren’t in th
 
 6. Copy those numbers into the textbox and click search. After clicking the search, a card for the song should pop up. Click use to use the song in your level.
 
-{{< youtube 06gFmlNyY0g >}}
+{{< youtube 06gFmlNyY0g >}} 
 
 # 2: Music Library
 
-The music library is an improved 2.2 feature that will allow the user to pick a song for their level. This section will teach you how to use it:
+The music library is a 2.2 feature that will allow the user to pick a song for their level. This section will teach you how to use it.
 
 1. From the GD Editor, click the gear at the top right corner.
 
@@ -85,15 +85,15 @@ The music library is an improved 2.2 feature that will allow the user to pick a 
 
 To hear the song as well, click the play button to the right of the "use" button.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/10mH4Fk-KuVVg-Lq7eZOWzBB9_NFS2cdO" >}}
 
 Use the slider in the top left to skip through the song. Slide the slider to the left if you want to go back to an earlier part of the song, and to the right if you want to hear a later part of the song.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1-cIINSlqZdQI8pDsNqPS1syBn3O_edyP" >}}
 
 The music symbol on the right is where you can choose a specific artist. The symbol above allows you to choose a specific music genre.
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1KeB5kox9biI7nPIv1Z4512wPssGhk9lE" >}}
 
 Once you have picked your desired song you’re all set to play.
 
@@ -103,31 +103,31 @@ Once you have picked your desired song you’re all set to play.
 
 When downloading and using a NONG song, you’re basically tricking GD into thinking that the NONG is an official song, or one you have already downloaded from Newgrounds. This explains why the song for slaughterhouse in game (Tennobyte - Fly Away) sounds nothing like the songs for showcases or completions of the level.
 
-1. Download the .mp3 file of the song you wish to use. The format has to be **MP3**, and any other file type won’t work. If your song isn’t an mp3, then you can use a file converter (like CloudConvert). Make sure you trust the converter you are using, as some are malicious, and can give viruses.
+1. Download the `.mp3` file of the song you wish to use. The format has to be **mp3**, and any other file type won’t work. If your song isn’t an `.mp3`, then you can use a file converter (like CloudConvert). Make sure you trust the converter you are using, as some are malicious, and can give viruses.
 
-2. If you don't have "Change Song Location" enabled, then use the shortcut Win+R to open the "Run Program" window. Enter %appdata% and press Enter. Navigate to Appdata/Local/GeometryDash. This is where all your saved songs will be.
+2. If you don't have "Change Song Location" enabled, then use the shortcut `Win+R` to open the "Run Program" window. Enter %appdata% and press Enter. Navigate to Appdata/Local/GeometryDash. This is where all your saved songs will be.
 
-3. If you DO have "Change Song Location" enabled, then open the GD steam page in your game library. On the right side, there will be 3 buttons. Press the cog icon, then navigate to Manage -> Browse Local Files. From here, open your resources folder, which will show all game data, including your songs.
+3. If you DO have "Change Song Location" enabled, then open the GD steam page in your game library. On the right side, there will be 3 buttons. Press the cog icon, then navigate to `Manage -> Browse Local Files`. From here, open your resources folder, which will show all game data, including your songs.
 
 4. Right click on your song folder, go to "Properties", and disable "Read-Only". Click "Apply", then drag your custom song that you downloaded into the open folder.
 
 5. Rename the song file to either the title of the song you wish to replace (e.g. StereoMadness, xStep, ClutterFunk), or the ID of the song from Newgrounds (ID 1 is *Chilled 2* in game).
 
-6. Close the game, or just move to a place in the game where the song can’t play.
+6. Close the game, or just move to a place in the game where the song can’t play (for instance, exiting your level).
 
-{{< youtube mzXcOG6eVuk >}}
+{{< youtube mzXcOG6eVuk >}} 
 
 ## Mac (On Steam)
 
 The process for using a NONG song on Mac is basically the same as on windows.
 
-1.Open a new finder window and press Command + Shift + G
+1.Open a new finder window and press `Command + Shift + G`
 
 2. Type in `Library/Caches/` and click `Go` when prompted with a text box asking where you want to go
 
 - You should now see a spread of your downloaded GD songs.
 
-3. Download the song of your choosing as an .MP3 file. Any other file type will not work. You can either do this legally, or illegally with an MP3 file converter. Make sure you trust the converter you are using, as some are malicious, and can give viruses.
+3. Download the song of your choosing as an `.mp3` file. Any other file type will not work. You can either do this legally, or illegally with an mp3 file converter. Make sure you trust the converter you are using, as some are malicious, and can give viruses.
 
 4. Rename the song file to either the title of the song you wish to replace (e.g. StereoMadness, xStep, ClutterFunk), or the ID of the song from Newgrounds (ID 1 is *Chilled 2* in game).
 
@@ -139,13 +139,13 @@ Using NONG songs on Android is a bit different than on Windows or Mac. For this 
 
 1. Download the Android Mod Menu from Italian APK Downloader
 
-{{< youtube YNF_wk7uMuA >}}
+{{< youtube YNF_wk7uMuA >}} 
 
 2. Install the APK. On newer phones, locating the file and pressing on it should automatically update GD.
 
 3. In your level, load a newgrounds ID of the song you’re going to replace. It can be any ID, but it should generally be a song you’re never going to actually use (like Chilled 1).
 
-4. Download the .mp3 file of the song you wish to use. The format has to be **MP3**, and any other file type won’t work. If your song isn’t an mp3, then you can use a file converter (like CloudConvert). Make sure you trust the converter you are using, as some are malicious, and can give viruses.
+4. Download the .mp3 file of the song you wish to use. The format has to be **mp3**, and any other file type won’t work. If your song isn’t an mp3, then you can use a file converter (like CloudConvert). Make sure you trust the converter you are using, as some are malicious, and can give viruses.
 
 5. In your files app, navigate to the `GD Mods` and then `Songs` folders.
 
@@ -153,7 +153,7 @@ Using NONG songs on Android is a bit different than on Windows or Mac. For this 
 
 7. Go back to the editor, and the song card should have changed to something like the figure below.
 
-{{< youtube 7h6O_v_LN2E >}}
+{{< youtube 7h6O_v_LN2E >}} 
 
 # 4: Changing a Song’s Offset
 
@@ -172,4 +172,4 @@ A song’s **offset** is __where it starts playing in game__. For instance, Bloo
 
 4. The "Fade In" and "Fade Out" buttons at the bottom allow for the song to fade in to the level, and fade out once the last block has been passed respectively.
 
-{{< youtube ZFZiChCyjHA >}}
+{{< youtube ZFZiChCyjHA >}} 

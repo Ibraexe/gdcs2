@@ -1,12 +1,13 @@
 ---
 title: "Making Animations"
-weight: 511
+weight: 5110
 date: 2023-08-05T00:00:00.000Z
 authors:
   - "komatic5"
 contributors:
   - "komatic5"
   - "yoreid"
+  - "poryii"
 draft: false
 ---
 
@@ -53,25 +54,53 @@ When using frame by frame, it is best to take advantage of the techniques used i
 
 Of course, a major drawback to frame by frame is it can be incredibly object heavy, because each frame is its own set of objects while being on the screen for intervals less than a fraction of a second. When using this, make sure the object being animated is as heavily optimized as it can be, and make sure you only have as many frames as you need. A good rule of thumb is to space each frame apart by about 0.06 seconds, as it is a nice compromise between 24 and 12 fps animation. Of course spacing between frames can vary for each frame, as doing this allows tweaking the easing of frame by frame artificially, but generally speaking: anything slower looks choppy, and anything faster is unnecessary.
 
-# 4: Example
+# 4. Using Keyframes
+Keyframes can heavily enhance your animations, as it is easy to get the hang of, and using them is quite simple.
+
+They can be helpful in many ways, as they allow for complex, smooth, and synchronized animations. (Moving, rotating, scaling, etc.) It can give your levels smoother transitions, with different easing settings to enhance the overall look of the animation.
+
+Keyframes are also more viable and easier to use than the standard move/rotate triggers, as you can just edit the keyframe, rather than changing a whole system of move triggers that all have different properties. This also reduces clutter in the editor. Not only are they very reusable, they also give you an easy way to visualize the way your animation will look, and what you are trying to do.
+
+## How to use Keyframes
+- First, let's lay out the way we want the animation to look. This is what I did, but you can make your keyframes in any way you like.
+
+None (show a layout of keyframes that move a block)
+- Then, we can give the object that is going to be animated a Group ID, and give the keyframes a separate group id.
+- We can place a Keyframe Trigger, and edit it so that the Animation ID is the same group ID as the Keyframes, and the target ID is the block we are trying to move.
+
+None (show keyframe trigger settings)
+- Now, you can change the keyframe settings and add more, if you need.
+
+## Important Things to Note:
+
+- You can rotate the keyframes itself to rotate the object that is being animated. This applies to scaling too.
+- You can make your animation curved if you have more than 3 keyframes in your animation, which will make it so that the keyframes can move more smoothly and freely, rather than just moving in a straight line.
+- Changing the duration of the keyframes is simple, it's the amount of time it will take for the object to get to the next keyframe.
+- Easing can also make your animation look more smooth, just like we said earlier in X and Y movement.
+
+
+This video here shows how keyframes work more in-depth:
+{{< youtube ABErZxRhQXc >}}
+
+# 5: Examples
 
 A simple but thorough example of these 4 aspects of animation in motion is the bossfight in `BEATDEMON`. The boss begins by summoning obstacles by chomping forcefully in a rhythmic manner, with each barrage of obstacles using a different pattern of motion the boss moves in while chomping.
 
 ## X movement
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1_uwV0Tyk1nNaERhW8VB2EO6PO1tJuyxZ/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1_uwV0Tyk1nNaERhW8VB2EO6PO1tJuyxZ" >}}
 
 This movement is the simplest. The boss is alternating from left and right with each bite, so the movement is simply a 'none' easing switching at every beat. As the bossfight progresses, though, the X movement eventually becomes more dramatic like the Y movement to match the rising intensity.
 
 ## Y movement
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1MRhXcziH-h078BluS-mQa262xCa1hqDf/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1MRhXcziH-h078BluS-mQa262xCa1hqDf" >}}
 
 This bouncing motion is a combination of 'exponential out' move trigger activated first going up, followed immediately by an 'exponential in' move trigger going down. Despite the triggers having the same duration, it results in a sudden jolt up caused by the first trigger, which is only corrected later when the second trigger catches up.
 
 ## Rotation
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1qijHawfe1DemjiHP5EmeF8If8XPbDJvy/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1qijHawfe1DemjiHP5EmeF8If8XPbDJvy" >}}
 
 This part of the motion is as simple as the X movement, it's a rotation loop with no easing. It is still very important, though, as it displays the same leaning motion described earlier; whatever direction the boss moves, it will ‘lean’ the other way.
 
@@ -79,14 +108,15 @@ Notice that in the X and Y movement and rotation, there is a bit of randomness i
 
 ## Frame by Frame
 
-<div style="width: fit-content; height: fit-content"><iframe src=https://drive.google.com/file/d/1MKD80aDiv_04IQIqnIQb8-hDhLslRbTL/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1MKD80aDiv_04IQIqnIQb8-hDhLslRbTL" >}}
 
 This animation shows a perfect instance to use frame by frame. The bosses movement and design is already cartoony, so a squash and stretch loop as well as the exaggerated impact frame reflects this vibe even more. Also, the boss design is very simple, so making several copies of the boss for each frame is not object heavy at all.
 
 Here is the finished product:
 
-<div><iframe src=https://drive.google.com/file/d/1TKUus9idxs2C1RlPbHivLxpEcHGN4Tmc/preview?usp=drivesdk></iframe></div>
+{{< img src="https://lh3.googleusercontent.com/d/1TKUus9idxs2C1RlPbHivLxpEcHGN4Tmc" >}}
 
 Notice how the design for the boss is very simple, yet is the most iconic part of the level due to the execution of its animation. One of the best ways to get the most out of your animations is to make the animation the entire theme of the level.
 
 Getting easing and frame by frame right on the first try is near impossible, even if you have excellent mental imaging skills when setting up triggers. So always remember an animation can be turned from terrible to very natural with only small tweaks to the values of your move triggers. If something in the movement seems off, try to picture what you want it to look like and contrast that with what you have, then translate that to tweaking triggers. Another way to improve a lifeless animation is to simply add more; small additions of impact frames, particles, and pulses can be excellent finishing touches when done well.
+

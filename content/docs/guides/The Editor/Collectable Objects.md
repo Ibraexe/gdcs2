@@ -1,6 +1,6 @@
 ---
 title: "Collectable Objects"
-weight: 111
+weight: 1110
 date: 2024-01-12T00:00:00.000Z
 authors:
   - "naem.less"
@@ -28,6 +28,11 @@ Collectable objects are ones like keys which players can collect by default. For
 {{< youtube id=gd8KO_vD8jQ start=61 >}}
 
 To edit their properties, you'll use the {{< img src="images/GDEmotes/Buttons/EditSpecial.png" class="emote">}} button.
+- We discussed the properties and functions of collectable items.
+- We saw how collectables can be used to make levels slightly more interactive via counters.
+
+{{< /callout >}}
+** **
 
 # 1: Properties
 

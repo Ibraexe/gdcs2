@@ -1,6 +1,6 @@
 ---
 title: "Making a Draft"
-weight: 203
+weight: 2030
 date: 2025-03-25T00:00:00.000Z
 authors:
   - "komatic5"
@@ -10,11 +10,11 @@ contributors:
 draft: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - A Minimum Viable Product (MVP) is the most bare-bones version of your level's idea.
 - Make one as quickly and simply as possible, and feel free to use placeholders for things like decoration in the level.
 - Use this MVP to get feedback on your level's idea and adjust it as necessary. Make sure you don't spend so much effort that changing your idea will waste lots of time.
-
+{{< /callout >}}
 ** **
 
 # 1: Executing Plans

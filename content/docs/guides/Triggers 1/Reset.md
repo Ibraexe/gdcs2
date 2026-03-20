@@ -1,6 +1,6 @@
 ---
 title: "Reset"
-weight: 347
+weight: 3470
 date: 2024-01-16T00:00:00.000Z
 authors:
   - "delts1550"
@@ -16,6 +16,8 @@ draft: false
 {{< /callout >}}
 
 ** **
+
+# 1: Features
 
 The **Reset Trigger** {{< img src="images/GDEmotes/Triggers/Reset.png" class="emote">}} is useful in platformer mode if you want to __reuse a checkpoint or collectable that has been picked up by the player.__ In order to reset these, you need to have them on a group ID that matches the ID used in the reset trigger.
 

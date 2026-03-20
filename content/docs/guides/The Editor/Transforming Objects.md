@@ -1,6 +1,6 @@
 ---
 title: "Transforming Objects"
-weight: 115
+weight: 1150
 date: 2024-01-07T00:00:00.000Z
 authors:
   - "komatic5"
@@ -26,7 +26,7 @@ seo:
 
 ** **
 
-# 1: :Arrow: Arrow Buttons
+# 1: Arrow Buttons
 
 The **arrow buttons** __let you move objects around on the grid__. As you may expect, they move objects in the direction they point, so an up arrow moves objects upward for example.
 
@@ -39,11 +39,11 @@ The arrow icon on each of the buttons depends on how much they move objects:
 
 A **grid space** is __the size of one square on the editor grid__. By default, most objects will have a normal grid size, but some objects have smaller grids (e.g. 0.5x, 0.25x). It can be annoying dealing with objects of differing grid sizes, so here are some tips to have more control:
 
-> PC: While selecting any objects, go to the Build tab, select an object with a different grid size, and use the arrows to move your selected objects on the new grid space. Some useful objects for this are the small spike in the Spike tab, and the small pixel in the Glow tab.
+**PC:** While selecting any objects, go to the Build tab, select an object with a different grid size, and use the arrows to move your selected objects on the new grid space. Some useful objects for this are the small spike in the Spike tab, and the small pixel in the Glow tab.
 
 {{< youtube GfWHfvJ1tY4 >}}
 
-> Mobile: Place down an object with the appropriate grid, select it *first*, then select your entire set of objects and use the arrow buttons. This no longer works in Update 2.2, but may still be useful for older GDPS servers or modded clients. Alternatively, you can try placing a Move trigger with an X or Y value of 5, playtest for a bit, then pause the playtest and copy-paste your objects.
+**Mobile:** Place down an object with the appropriate grid, select it *first*, then select your entire set of objects and use the arrow buttons. This no longer works in Update 2.2, but may still be useful for older GDPS servers or modded clients. Alternatively, you can try placing a Move trigger with an X or Y value of 5, playtest for a bit, then pause the playtest and copy-paste your objects.
 
 {{< youtube zJbnKt9sw4Q >}}
 
@@ -55,7 +55,7 @@ If you need any grid spaces more precise than the smallest arrows, you can use A
 
 {{< youtube cRBaqR85y9M >}}
 
-# 2: :Flip: Flip Buttons
+# 2: Flip Buttons
 
 The **flip buttons** __reflect objects horizontally and vertically__. This is mostly self-explanatory, but it’s important to pay attention to flipping objects with abnormal hitboxes.
 
@@ -63,7 +63,7 @@ For example, if you want a slope to face in the opposite direction, you need to 
 
 {{< img src="https://lh3.googleusercontent.com/d/134zNb64_GyENci2eJMZ9Ref1f1-Eopsa" >}}
 
-# 3: :Rotate: Rotation Buttons
+# 3: Rotation Buttons
 
 The **rotation buttons** __let you turn objects about their center__.
 
@@ -82,7 +82,7 @@ It is also helpful for trigger setups if you want a group of triggers to activat
 
 {{< youtube pqCcrWItEzc >}}
 
-# 4: :Scale: Warp & Scale Buttons
+# 4: Warp & Scale Buttons
 
 **Scaling** __changes an object’s size and aspect ratio__, while **Warping** __changes its skew__. These are the last three buttons in the Edit tab.
 - The “Scale” button with one horizontal line scales an entire object’s size. By default, it ranges from 0.5x to 2x scale, but can be expanded to 0.25x and 4x scale with the “Increase Scale” setting enabled.

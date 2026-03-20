@@ -1,6 +1,6 @@
 ---
 title: "Custom Objects & Autobuild"
-weight: 114
+weight: 1140
 date: 2024-07-16T00:00:00.000Z
 authors:
   - "tdp9"
@@ -15,10 +15,11 @@ seo:
   noindex: false
 ---
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Custom objects are groups of objects that can be placed as a whole anywhere in a level. These can be useful for merging collab parts or speeding up the designing process.
 - Autobuild allows creating templates of objects to further speed up the creating process. Filling a template out and pasting it will fill any structures with your desired design.
 
+{{< /callout >}}
 ** **
 
 # 1: Custom Objects
@@ -31,7 +32,7 @@ Custom objects do have their limits, though. Currently as of 2.206, each custom 
 
 While having an object in the tab selected, you can press the arrow buttons to move the position of the object up or down the object list. You can also press the red minus button to remove the object from the list entirely.
 
-{{< youtube dSveF6KysXA>}}
+{{< youtube dSveF6KysXA >}}
 
 When placing down custom objects, they are placed on an anchor point. By default, this anchor point is in the approximate center of the objects. However, if you enable group parent on one of the objects, the anchor point is overwritten to that point. If multiple objects have group parent enabled, the object with the highest y-position will take priority. If multiple objects have the same height, the object on the farthest left takes priority.
 
