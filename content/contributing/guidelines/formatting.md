@@ -114,6 +114,10 @@ Do note that filling these is optional, but it is recommended to include them so
 {{< callout context="caution" title="Note: adding contributors through Decap is not currently supported. If you want to add or change the attributes of a contributor, do it yourself through localhost or ask a contributor in the discord server to do it." icon="outline/info-circle" >}}
 {{< /callout >}}
 
+## Body
+
+Everything else that's not inside the frontmatter is the **body** of the guide, and is where the main contents of the guide are. The following sections will teach you how to style it properly.
+
 # 2: Body Syntax
 
 ## Markdown

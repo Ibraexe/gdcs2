@@ -48,7 +48,7 @@ Before submitting content, review our guidelines to ensure consistency and quali
 
 {{< link-card
   title="Writing Style"
-  description="Learn writing techniques and our standards for clarity, tone, and readability."
+  description="Learn writing techniques and our guide standards."
   href="/contributing/guidelines/writing-style"
   class="hover-scale" >}}
 
