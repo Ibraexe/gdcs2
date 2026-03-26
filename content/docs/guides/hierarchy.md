@@ -13,15 +13,12 @@ current content. Will be fleshed out but just wanted to actually make the guide 
 * These components are the building blocks of any decoration, so it's important to know what they are and how to use them.
 * One crucial use for deco component is hierarchy*, which determines how "important" a deco element feels.
 
-
 {{< /callout >}}
-
 
 {{< callout context="danger" title="This is an advanced guide." icon="outline/alert-octagon" >}}
 
 * If you're newer to creating, it is highly recommended* that you learn what's in the Beginner and Intermediate guides first.
 * Of course, we can't stop you from reading ahead, but you may struggle to apply the concepts in these guides while also learning to create.
-
 
 {{< /callout >}}
 
@@ -40,9 +37,13 @@ The components of deco are as follows.
 * **Space:** The area between and inside shapes. This can be positive space, such as the space taken up by objects, or negative space which is between objects. Both types of space are important to consider, especially for visual effects and transitions.
 * **Texture:** The material an object has or appears to have. Since we're not working with real objects, this is also implied like form. You can make objects appear to have texture by using lighting and colors.
 
-# \# 2: Contrast
+# \# 2: Using Deco Elements
 
-While it's important to know what elements make up deco, it's equally (or even more) important to know about **contrast**. Put simply, this is the difference between two objects. Contrast is the reason why you can see, distinguish objects from each other, and so on; so knowing how to manipulate it is crucial for deco.
+While it's important to know what elements make up deco, it's equally (or even more) important to know about how to use them. There are many concepts you'll learn in later guides for this. For now though, it's important to go through the most important concepts.
+
+## Contrast
+
+Put simply, this is the difference between two objects. Contrast is the reason why you can see, distinguish objects from each other, and so on; so knowing how to manipulate it is crucial for deco.
 For decoration, these differences will be based on the elements of deco described above. A red object differs from a blue object because of color, while a circle contrasts with a square because of its shape. Objects can have multiple types of contrast, which is often how you make more dynamic and interesting visuals.
 The image below shows an example of contrast at work.
 
@@ -62,7 +63,6 @@ This idea is the basis of **visual weight** – basically, **how much an object 
 Keep in mind that **visual weight is all relative**. If an object draws lots of attention to itself, it will only feel that way because other objects in its surroundings don't draw as much attention to themselves.
 
 `(Need an image example here)`
-
 
 Since visual weight is based on the elements of deco, each one provides a way to increase visual weight.
 
