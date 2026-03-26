@@ -54,7 +54,9 @@ The image below shows an example of contrast at work.
 * The lighting helps communicate the **forms** of the tree and environment. The light only hits certain parts of the tree, providing the illusion that light is being blocked in some parts as 3D objects would do.
 * The **texture** of the tree leaves and bark differs from that of the snow and rocks.
   {{< img src="https://cdnb.artstation.com/p/assets/images/images/094/136/337/large/rutger-van-de-steeg-merryxmasfromrutger205notext.jpg?1765886856" >}}
-  Knowing how to use contrast effectively can help you make decoration as good as the image above. However, using contrast effectively requires a bit more nuance.
+
+
+Knowing how to use contrast effectively can help you make decoration as good as the image above. However, using contrast effectively requires a bit more nuance.
 
 ## Visual Weight
 
@@ -78,9 +80,3 @@ Since visual weight is based on the elements of deco, each one provides a way to
 * **Texture:** Objects with textures will have more visual weight than flat objects without any texture. This is also the least impactful way to increase visual weight.
 
 ## Hierarchy (will be moved to its own guide)
-
-How you intentionally use visual weight to make some objects more / less important
-
-Focal points / areas
-
-Levels of importance (e.g., big medium small)
