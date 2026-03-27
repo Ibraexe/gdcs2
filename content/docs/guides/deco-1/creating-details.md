@@ -37,13 +37,11 @@ Instead of getting ahead of yourself trying to make things “not empty”, firs
 
 Since details are features of objects, it helps to go through some features objects can have.
 
-`(each of these needs an image)`
-
 - **Shape:** The shape of an object is one of the most noticeable types of details. The more individual sections a shape has, the more detailed it is.
 
   Curves are especially detailed parts of shapes. Because they're made of countless tiny segments, they have a lot of detail and are more complex to create and use.
 
-  The 
+  The image below shows some particularly detailed shapes. There are plenty of curves and segments which make these structures particularly intricate. Even without any details on the inside they are still far more detailed than simple shapes like basic rectangles.
 
   {{< img src="https://lh3.googleusercontent.com/d/1quJTLTVp97YhbxwCtGhXJPS86nRwnk9G" >}}
 - **Color:** Another noticeable type of detail is what color an object has. The more colors an object has, the more detailed it is.
