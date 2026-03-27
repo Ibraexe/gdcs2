@@ -45,6 +45,28 @@ Since details are features of objects, it helps to go through some features obje
   This also makes *gradients* very detailed, since they smoothly transition between colors. You can get a lot more colors in a shape by using gradients.
 - **Texture:** This is a combination of both shape and color. Textures add a lot of small shapes with varied colors to objects, which makes them look more detailed.
 
+## Less Is More
+
+A common assumption in the GD community is that more detail is unequivocally better than less. This is not true. Adding details is a balancing act, so the more details you add, the more factors you must juggle to make your level look good.
+
+You cannot make up for this with planning; it is skill that impacts your ability to handle more details. As before, if you wish to disagree, try cramming lots of details into your deco and see how well you really fare.
+
+One can make many arguments in favor of keeping your work intentionally simple. It makes things easier for people to understand, lowers the hardware requirement to play your levels, and helps keep your work recognizable (which is why every brand tries to simplify their logos nowadays). However, it is much easier to simply show you what I mean.
+
+Take a look at these two screenshots.
+
+{{< img-grid >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1pUUjIbSjZGRz-tb5EWhhIX9Tzw8K3L2f" >}}
+
+{{< img src="https://lh3.googleusercontent.com/d/1wsccUJ82OSS5UIzsJhwvoazXjkM8VqUz" >}}
+
+{{< /img-grid >}}
+
+I’m sure you think the second image looks better here, and that’s ultimately because the details on display are more impactful & have greater quality than the textures you can barely see in the first image. Even if you prefer the look of the first image, you should recognize that the more detailed textures barely contribute to that image's appeal.
+
+Ultimately **quality matters more than quantity** in art, so it is better to have a few details with a lot of effort in them than to have mass-produced, factory-settings object slop. It is best to concentrate details in the most important objects, and leave the rest with less. There is a saying that you get 80% of something’s effectiveness with 20% of the work, and that absolutely holds true here.
+
 # 2: Using Details
 
 ## Functional
@@ -71,7 +93,9 @@ Here's another screenshot from Ghostrunner. The main antagonist of the game is t
 
 **Aesthetic** details are created with the __express purpose of making your visuals look good.__ Your ability to use these will improve in later grades as you learn more advanced skills, but I still mention them here as they are a type of detail - just one you can’t really use yet. With laptops, many companies create specific designs that don’t improve functionality but make them look interesting, like the rainbow backlights of gaming laptops.
 
-Aesthetic details serve as the selling point of your decoration. Most people won’t think too deeply about the function or story behind your details, but they will think about what looks flashy and cool; if your detail is in a youtube thumbnail, that’s a good sign of an aesthetic detail. To this extent we can categorize aesthetic details as *macro details* which comprise the gist of your level’s environment, *micro details* which are most appreciated when dissecting specific details, *static details* which don’t move, and *animated ones* which do move and change color.
+Aesthetic details serve as the selling point of your decoration. Most people won’t think too deeply about the function or story behind your details, but they will think about what looks flashy and cool; if your detail is in a youtube thumbnail, that’s a good sign of an aesthetic detail.
+
+To this extent we can categorize aesthetic details as *macro details* which comprise the gist of your level’s environment, *micro details* which are most appreciated when dissecting specific details, *static details* which don’t move, and *animated ones* which do move and change color.
 
 Different crowds will appreciate different types of aesthetic details; for example, people like level transitions with obvious, flashy details while others enjoy blocks with smaller, more nuanced detail. The types you emphasize in your levels will depend on your intended target audience. However, I suggest having the majority of your details serve a functional or narrative purpose first, then focus on aesthetic details later. Most of your aesthetic details can be discarded in a Low Detail Mode, while functional details will remain.
 
@@ -136,43 +160,6 @@ As you gain skill and advance through the grades, you’ll be asked to do studie
 
 A **detail** is an __individual feature or component of an object__. You should know how to make these from the last section of this guide, but you may wish to create custom details of your own or combine details from different objects. When doing so, 
 
-
-
-## Simplifying
-
-A common assumption of beginner creators and the GD community is to assume that more detail is unequivocally better than less. This is not true. More details require you to have a stronger balance between what is and what isn't important to your levels, and without enough skill you will fail to juggle everything. You cannot make up for this with planning; it is skill that impacts your ability to handle more details. As before, if you wish to disagree, try cramming lots of details into your deco and see how well you really fare.
-
-One can make many arguments in favor of keeping your work intentionally simple. It makes things easier for people to understand, lowers the hardware requirement to play your levels, and helps keep your work recognizable (which is why every brand tries to simplify their logos nowadays). However, it is much easier to simply show you what I mean.
-
-Take a look at these two screenshots.
-
-{{< img-grid >}}
-
-{{< img src="https://lh3.googleusercontent.com/d/1pUUjIbSjZGRz-tb5EWhhIX9Tzw8K3L2f" >}}
-
-{{< img src="https://lh3.googleusercontent.com/d/1wsccUJ82OSS5UIzsJhwvoazXjkM8VqUz" >}}
-
-{{< /img-grid >}}
-
-I’m sure you think the second image looks better here, and that’s ultimately because the details on display are more impactful & have greater quality than the textures you can barely see in the first image. Even if you prefer the look of the first image, you should recognize that the more detailed textures barely contribute to that image's appeal.
-
-Ultimately quality matters more than quantity in art, so it is better to have a few details with a lot of effort in them than to have mass-produced, factory settings object spam. It is best to concentrate details in the most important objects, and leave the rest with less. There is a saying that you get 80% of something’s effectiveness with 20% of the work, and that absolutely holds true here.
-
-# 3: Styles
-
-Styles are one of the most popular talking points in the GD community. You may see other beginners talk about how they need a style to start creating, or feel like you need to find your style yourself.
-
-Well, you don’t. Let me explain.
-
-A **style** is the __complete set of creative decisions you make in a level__. You may choose to consciously do things like having realistic lighting or omitting lighting from your levels, but there are also implicit choices you make like what objects you use and the workflow you use as you create in the editor. Many commonly discussed styles refer to how individual creators make levels, such as Xender Game, Culuc, and Bli.
-
-There are also general “genres” like “art” and “design”, which refer to the categories these creators can be put into. Genres lead to similar visual aesthetics from the levels which adhere to them. Granted, their names are misnomers; for example, it’s more accurate to call design “classic” as those levels normally use objects for their default purposes, and art “custom art” as those levels use objects for new reasons.
-
-But why shouldn’t you care about style? There are several reasons. If you’re just learning techniques and objects to use in deco, you should not focus on finding a “style”. Your goal should be to learn the editor and gain experience first and foremost; everything else comes after that.
-
-If you’re trying to form a style to make levels, you have things backwards. You can only form a style with experience, which mandates that you make levels to gain experience instead of trying to “find your style” without even being comfortable with what you make now. Furthermore, you likely lack all the knowledge you need to make informed creative decisions, such as the information on lighting, animation, and shape design you’ll learn at a higher level. If you lack all this knowledge, you’ll end up being dissatisfied with your decisions sooner or later anyways.
-
-But overall, styles are arbitrary limitations. They’re just a visual thing which doesn’t have any bearing on your skill with the editor or your experience; at most they may affect your workflow, but that’ll be due to more fundamental things like detail usage anyways. You may see people reject useful advice because it wouldn’t fit their “style”, when it would unequivocally benefit their vision, which is a shame. Furthermore you may miss out on useful techniques in your levels just because you don't think it fits “your style”. Ultimately, you should experiment with techniques and try to learn as much as possible regardless of arbitrary classifications like style, which have no tangible bearing on your standing as a creator.
 
 **Video:**
 
