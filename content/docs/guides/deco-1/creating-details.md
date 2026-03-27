@@ -47,6 +47,10 @@ Since details are features of objects, it helps to go through some features obje
 - **Color:** Another noticeable type of detail is what color an object has. The more colors an object has, the more detailed it is.
 
   This also makes *gradients* very detailed, since they smoothly transition between colors. You can get a lot more colors in a shape by using gradients.
+
+  The image below shows a lot of detailed colors used for the background. There's a multi-color gradient that provides a lot of detail, and the bands of color streaking through the gradient create more detail by adding intricate shapes to break up the gradient a bit.
+
+  {{< img src="https://lh3.googleusercontent.com/d/1MxJpsvB_w1z7uhO36l2kQUG2iXJ8p0ds" >}}
 - **Texture:** This is a combination of both shape and color. Textures add a lot of small shapes with varied colors to objects, which makes them look more detailed.
 
 ## Less Is More
