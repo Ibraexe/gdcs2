@@ -6,6 +6,7 @@ const targetDir = path.join(__dirname, '../static/admin');
 
 if (!fs.existsSync(publicDir)) {
     console.warn("Copy main.css into static/ failed: The 'public' folder didn't exist. Run 'npm run dev' again.");
+    process.exit(0);
 }
 
 const files = fs.readdirSync(publicDir);
