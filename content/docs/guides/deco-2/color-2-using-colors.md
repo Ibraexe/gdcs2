@@ -1,7 +1,7 @@
 ---
 title: Color 2 (Using Colors)
-weight: 8020
 date: 2023-11-30T00:00:00.000Z
+weight: 8020
 description: In this guide, we’ll explore colors further in depth. This guide will touch on how to masterfully utilize the tricky-to-use greens and grays. Then, it will elaborate more on color gradients, tints, and accents.
 authors:
   - kde
@@ -10,20 +10,23 @@ contributors:
   - kde
 draft: false
 ---
-
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
+
 - Using gray colors can create contrast and can also be used to transition between warm colors and cool colors.
 - Using greens is very important as humans are the most perceptible to changes in this color. Greens can also look good with other colors, like purples and reds.
 - Gradients allow for a seamless transition between two colors. There are hue, saturation, and value gradients.
 - Tints are different shades of the same color. They can help create an atmospheric mood.
 - Accents are small details that are used sparingly and are used to create emphasis. They can help make your creations more memorable.
 
+
 {{< /callout >}}
 
-** **
+- - -
+
 # 1: Using Grays
 
 Some think that since grays are dull colors, they are not important. On the contrary, mastering the usage of grays will greatly help with your colors overall. In this section, we investigate how using grays can help achieve appropriate contrast. Note that when we refer to grays, we refer to not just strictly grayscale values, but any desaturated color in general.
+
 ## Contrasting with Saturated Colors
 
 Gray is a dull color - at least compared to its saturated counterparts - yet it is precisely this property that makes them useful in creating a good color composition. Placing vibrant colors next to grays creates a strong contrast that can easily draw someone’s eyes towards it. This is similar to the effect contrast in value gives. Value contrast and saturation contrast are often utilized together for the strongest effect.
@@ -36,7 +39,7 @@ When contrasted with another hue effectively, grays can often enhance the effect
 
 {{< img src="https://lh3.googleusercontent.com/d/1dX6kOb04K1JMFuw-enjHjQNEK2TnVxl8" >}}
 
-An example in GD is shown [in this brief ship part](https://youtu.be/h0-n3qLVQ5k >}} t=18
+An example in GD is shown \[in this brief ship part](https://youtu.be/h0-n3qLVQ5k >}} t=18
 ) by Xender Game. The relatively desaturated blue tones make up most of the color composition, allowing the more saturated red elements to stand out.
 
 ## Grays as a Transitional Color
@@ -51,15 +54,16 @@ Here is another example, this time with yellow and blue tones. The pinkish-gray 
 
 {{< img src="https://lh3.googleusercontent.com/d/1JKhRORoLw7fNH22GMcTc19z7uWtx-Anz" >}}
 
-There are many ways to harmonize grays with other hues. The best way to learn how is to build up a visual library of appealing color compositions that feature gray tones; in other words, look for as much art as you possiblby can.
+There are many ways to harmonize grays with other hues. The best way to learn how is to build up a visual library of appealing color compositions that feature gray tones; in other words, look for as much art as you possibly can.
 
 # 2: Using Greens
 
 Greens are common in beautiful natural scenes, but they can look hideous when used improperly. Human eyes are the most sensitive to changes in the color green, which is why controlling its hues and saturation is such a precarious task. In this section, we investigate:
-- How green hues can be used with other colors for great visual effects.
-- Effective methods to enhance the appearance of green by incorporating accents of reds and purples.
 
-In general color design principles, it is a good idea to vary your hues a fair amount. This usually means __taking a normal hue and adding slightly warmer/cooler variations around it__, something often referred to as **hue shifting**. This is especially true when using greens.
+* How green hues can be used with other colors for great visual effects.
+* Effective methods to enhance the appearance of green by incorporating accents of reds and purples.
+
+In general color design principles, it is a good idea to vary your hues a fair amount. This usually means **taking a normal hue and adding slightly warmer/cooler variations around it**, something often referred to as **hue shifting**. This is especially true when using greens.
 
 Here is an example of an artwork that heavily uses different hues of green. The otherwise dull green of the leaves and foliage are enlivened by the yellow hues in the areas where the grass catches sunlight. The red accents also play a big role in making the greenery more interesting, bringing attention to the focal area.
 
@@ -117,8 +121,7 @@ An example in GD is Magdalene by Lyriaki. This part uses light blue accents to c
 
 
 # Sources
-- James Gurney: *Color and Light*, Pages 79-86
 
+* James Gurney: *Color and Light*, Pages 79-86
 
 **Video:** {{< youtube P2r4Z5kbx7M >}}
-
