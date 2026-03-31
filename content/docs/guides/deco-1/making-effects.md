@@ -145,7 +145,7 @@ The second example also acts as an example of Area triggers, as the structure's 
 
 * This first part uses a mix of Gradient triggers, Area triggers, and the Particle Editor. It may be extremely hard to see the Particle Editor's influence on this part, but there is a blending overlay on top of everything that makes the part much more colorful. I have attached a screenshot below which hopefully allows you to see a red and green particle above everything.
 
-{{< img src="GEK-YaNfljw" >}}
+{{< youtube "GEK-YaNfljw" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1lg1L9Q3U69gYVpFviSGeGHS6i2qQmeXs" >}}
 
