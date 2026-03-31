@@ -2,9 +2,7 @@
 title: Making Effects
 date: 2024-09-18T00:00:00.000Z
 weight: 5120
-description: This guide explains what effects generally are, important concepts
-  to know when making them, and the creating process for implementing them in
-  your levels.
+description: This guide explains what effects generally are, important concepts to know when making them, and the creating process for implementing them in your levels.
 authors:
   - illusion2
 contributors:
@@ -179,7 +177,7 @@ Most effect ideas start off as pure **concepts**. **These are features of the ed
 
 Let's make an example. You could start with this editor fact: *blending objects are invisible on top of a white background*. This concept gives lots of options to expand on. For instance, you could pulse the background to a different color to peek through the blending overlay, or you could use low-opacity particle objects to give everything a texture that won’t show up in the background. You can consider every possibility and pick the one that fits your level the best. Below are two examples that use the same concept but expand in different directions, creating a different effect.
 
-{{< youtube ""HMKmJwdMMTQ"" >}}
+{{< youtube "HMKmJwdMMTQ" >}}
 
 {{< youtube id="ClHHB4a2ez0" start="61" >}}
 
