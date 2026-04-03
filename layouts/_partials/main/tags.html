@@ -1,0 +1,19 @@
+<small class="tag-container ">
+  {{- with .Params.tags -}}
+    {{- range $tag := . -}}
+      <div class="tag-lightdark tag-pill hover-scale " style="z-index: 3;">
+
+        {{- $url := urlize $tag -}}
+        {{- $tagIcon := resources.Get (printf "images/GDEmotes/Tags/%s.png" $url) -}}
+        {{- if $tagIcon }}
+          <img src="{{ $tagIcon.RelPermalink }}" class="smallemote hover-scale">
+        {{ end }}
+
+        {{- $slug := (replace ($tag | lower) " " "-") -}}
+
+        <a href="{{- "/tags/" | relLangURL -}}{{- replace $slug "&" "" -}}/">{{ $tag }}</a>
+
+      </div>
+    {{ end }}
+  {{- end }}
+</small>
