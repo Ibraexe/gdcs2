@@ -11,17 +11,68 @@ public_folder: /images
 publish_mode: editorial_workflow
 site_url: https://www.gdcreatorschool.com/
 
+tags: &tags
+  label: "Tag"
+  name: "tag"
+  widget: "select"
+  options:
+    - Grade 0
+    - The Editor
+    - Advanced Editor
+    - Creating Process
+    - Your Mindset
+    - Community Work
+
+    - Grade 1
+    - Deco Basics
+    - Deco Features
+    - Deco Skills
+    - Visual Effects
+    - Gameplay Basics
+    - Gameplay Features
+    - Types of Gameplay
+    - Specific Gamemodes
+    - Basic Triggers
+    - Transformation Triggers
+    - Effect Triggers
+    - Gameplay Triggers
+    - Audio Triggers
+    - Condition Triggers
+    - Item Triggers
+
+    - Grade 2
+    - Light & Color
+    - Animation
+    - Perspective
+    - Mechanics
+    - Gameplay Pacing
+    - Game Design
+    - Sound Design
+    - Trigger Concepts
+    - Trigger Setups
+    - Legacy Setups
+
+    - Grade 3
+    - Design Theory
+    - Design Applications
+    - Pure Math & Algorithms
+    - Applied Math & Algorithms
+
+    - Contributing
+
 fields: &page_fields
   - { label: Draft, name: draft, widget: boolean,
     hint: "Enabling draft mode lets you save your changes, but doesn't make them available on the website."}
   - { label: Title, name: title, widget: string,
     hint: "The guide's title that will be seen on the website." }
-  - { label: Date, name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD",
-    hint: “The date when the guide is published and becomes public.” }
   - { label: Weight, name: weight, widget: number,
     hint: "Pages with high weight will display below pages with low weight.\nLook at other guides in this folder to see where to place your own." }
+  - { label: Date, name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD",
+    hint: “The date when the guide is published and becomes public.” }
   - { label: Description, name: description, widget: string,
     hint: "Short introduction about the contents of the guide." }
+  - { label: Tags, name: tags, widget: list, field: *tags,
+    hint: "The categories where the guide most aligns to." }
   - label: SEO
     name: seo
     widget: object
