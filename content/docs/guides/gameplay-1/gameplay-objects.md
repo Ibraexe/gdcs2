@@ -22,11 +22,13 @@ tags:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - Gameplay objects spice up how your level plays.
 - Orbs need the player’s input to activate, while pads don’t.
 - Portals come in all shapes and sizes
 - Special letter blocks help with bugfixing but their invisibility makes them less intuitive for the player
 - The checkpoint diamond is the only object with limited usability for Platformer Mode.
+
 
 {{< /callout >}}
 
@@ -48,11 +50,11 @@ tags:
 
 None
 
-* Blue orbs and pads flips the player’s gravity.
+* **Blue orbs and pads** flips the player’s gravity.
 
 {{< img src="https://lh3.googleusercontent.com/d/1A0w7uLeykAYUevkjm0JxKR-odzJW8E3b" >}}
 
-* :2Point2: Spider orbs and pads instantly teleport and flip the player’s gravity, acting like the Spider gamemode.
+* **Spider orbs and pads** instantly teleport and flip the player’s gravity, acting like the Spider gamemode. (added in 2.2)
 
 {{< img src="https://lh3.googleusercontent.com/d/1ShY5kl-k4kXE0Qi9zfx77YezcJexfvyi" >}}
 
@@ -61,11 +63,11 @@ Originally proposed by OmegaFalcon, Robtop liked the idea so much that he implem
 1. This is the only pad that stops the player from holding the jump button after touching it, acting similarly to a J-block which will be explained later.
 2. Rotating them sideways doesn't work.
 
-* Green orbs combine the properties of both the yellow and blue orb, where the player gets a jump boost, while also flipping its gravity.
+* **Green orbs** combine the properties of both the yellow and blue orb, where the player gets a jump boost, while also flipping its gravity.
 
 {{< img src="https://lh3.googleusercontent.com/d/1jxY8egr44ehAkHHgRj1hmJ_WtEkMfPxY" >}}
 
-* **Black orbs** **stomp you downwards.**
+* **Black orbs** stomp you downwards.
 
 {{< img src="https://lh3.googleusercontent.com/d/1KM2lrTt4XzK5WgNvdhR0GA9ZeAVOf96x" >}}
 
